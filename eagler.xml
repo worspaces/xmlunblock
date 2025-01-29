@@ -1,0 +1,18 @@
+<Module>
+  <ModulePrefs title="Module"/>
+  <Content type="html">
+    <![CDATA[ 
+    <style>
+      html, body, iframe {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+    <iframe src="https://are.fr.to/" width="100%" height="100%" frameborder="0"></iframe>
+    <title>Eaglercraft</title>
+    ]]>
+  </Content>
+</Module>
