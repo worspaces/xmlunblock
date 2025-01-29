@@ -1,0 +1,31 @@
+<Module>
+<ModulePrefs title="Module"/>
+<Content type="html">
+<![CDATA[ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Minecraft Movie</title>
+    <style>
+        /* Ensure the body takes the full screen size */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        /* Make the iframe take the full screen */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://www.youtube.com/embed/gbNzxvz2_H4" allowfullscreen></iframe>
+</body>
+</html> ]]>
+</Content>
+</Module>
