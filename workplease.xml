@@ -1,0 +1,9 @@
+<Module>
+  <ModulePrefs title="Module"/>
+  <Content type="html">
+    <![CDATA[ 
+    <p>hi</p>
+    <h1>please work</h1>
+    ]]>
+  </Content>
+</Module>
