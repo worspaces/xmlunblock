@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Blue Button Redirect"/>
+    <Content type="html">
+        <![CDATA[
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Blue Button Redirect</title>
+            <style>
+                .redirect-button {
+                    width: 100vw;
+                    height: 100vh;
+                    background-color: blue;
+                    color: white;
+                    font-size: 48px;
+                    border: none;
+                    cursor: pointer;
+                }
+            </style>
+        </head>
+        <body>
+            <button class="redirect-button" onclick="openIframePage()">PLAY</button>
+            <script>
+                function openIframePage() {
+                    const newTab = window.open("", "_blank");
+                    newTab.document.write(`
+                        <!DOCTYPE html>
+                        <html lang='en'>
+                        <head>
+                            <meta charset='UTF-8'>
+                            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                            <title>‎ </title>
+                            <style>
+                                html, body {
+                                    margin: 0;
+                                    padding: 0;
+                                    width: 100vw;
+                                    height: 100vh;
+                                    overflow: hidden;
+                                }
+                                iframe {
+                                    width: 100vw;
+                                    height: 100vh;
+                                    border: none;
+                                }
+                            </style>
+                        </head>
+                        <body>
+                            <iframe src='https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/wergboy/NLP@3cd7c854d047f364125194f75adeaa75aecf7985/pt/pt.xml&container=ig'></iframe>
+                        </body>
+                        </html>
+                    `);
+                }
+            </script>
+        </body>
+        </html>
+        ]]>
+    </Content>
+</Module>
