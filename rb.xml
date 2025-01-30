@@ -1,0 +1,30 @@
+<Module>
+<ModulePrefs title="Module"/>
+<Content type="html">
+<![CDATA[ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>down rn</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://c.tenor.com/YcDveQiIWf4AAAAC/tenor.gif') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html> ]]>
+</Content>
+</Module>
